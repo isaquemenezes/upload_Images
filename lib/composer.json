@@ -1,0 +1,20 @@
+{
+    "name": "upload/images",
+    "description": "uploads of images more",
+    "authors": [
+        {
+            "name": "Isaque Menezes da Silva",
+            "email": "37957188+isaquemenezes@users.noreply.github.com"
+        }
+    ],
+    "require": {
+        "cocur/slugify": "^4.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Classes\\":"../classes/",
+            "Models\\":"../models/",
+            "Traits\\":"../traits/"
+        }
+    }
+}
